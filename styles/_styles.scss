@@ -1,0 +1,50 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    position: fixed;
+    top: 0;
+
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    #headerOver {
+        display: none;
+        transition: 1;
+
+        #logo {
+            width: 200px;
+            position: fixed;
+            left: 2em;
+            top: 2em;
+        }
+
+        nav {
+            padding-top: 30em;
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+        }
+    }
+
+    video {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        object-fit: cover;
+        z-index: -1;
+    }
+}
+
+
+
+main {
+    width: 100vw;
+    z-index: 1000;
+    min-height: 200vh;
+}
